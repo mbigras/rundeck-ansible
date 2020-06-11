@@ -1,4 +1,4 @@
-# max/rundeck-ansible
+# mbigras/rundeck-ansible
 
 Welcome to this project!
 This project builds a docker image with rundeck.
