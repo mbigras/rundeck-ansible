@@ -9,9 +9,6 @@ build:
 		--build-arg VERSION=$(VERSION) \
 		--tag mbigras/rundeck-ansible:latest \
 		.
-	docker tag \
-		mbigras/rundeck-ansible:latest \
-		mbigras/rundeck-ansible:$(VERSION)
 
 release: build
 	docker push mbigras/rundeck-ansible
